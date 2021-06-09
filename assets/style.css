@@ -1,0 +1,51 @@
+section {
+    height: 100vh;
+    
+    background-image: url("/assets/images/the-pen.svg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+.image_2 {
+    background-image: url("/assets/images/is-mightier.svg");
+    background-color: black;
+    
+}
+
+.image_3 {
+    background-image: url("/assets/images/than.svg");
+    background-color: #ffffff;
+}
+.image_4 {
+    background-image: url("/assets/images/the-sword.svg");
+    background-color: black;
+}
+.image_5 {
+    background-image: url("/assets/images/end.svg");
+    background-color: chartreuse;
+}
+
+footer {
+    position: fixed;
+    bottom: 30;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+footer a path.background {
+    fill: blue;
+      transition: fill 0.25s;
+  }
+  
+footer a:hover path.background {
+      fill: red;
+  }
+
+@media (max-width: 800px) {
+    section {
+      background-attachment: scroll;
+      height: 75vw;
+    }
+  }
